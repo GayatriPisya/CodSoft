@@ -1,0 +1,455 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-image: url('colours.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5050e4;
+    text-shadow: 0 0 10px rgba(104, 26, 26, 0.8); 
+}
+
+nav {
+    background-image: linear-gradient(to right, #ffc107c1, #ff0037c3);
+    padding: 20px 0;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+nav a {
+    display: inline-block;
+    padding: 0;
+    font-family: cursive;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    transition: text-shadow 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-shadow: 0 0 10px rgba(116, 70, 255, 0.5);
+}
+
+/* Header Styles */
+header {
+    padding: 40px 0;
+    text-align: center;
+    padding-top: 80px; 
+    margin-bottom: 20px; 
+}
+
+.header-box {
+    background: linear-gradient(to right, #7700ff, #e64bfb88, #ff74d88b, #ff000093);
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 80%; 
+    margin: 0 auto;
+    height: 150px;
+    position: relative; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+.header-box img {
+    position: absolute;
+    bottom: 0%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    max-width: 200px; 
+    height: auto; 
+}
+
+.header-box h1 {
+    margin: 0;
+    color: #0f313b;
+    font-family: cursive;
+}
+
+.header-box h2 {
+    margin: 0;
+    color: #0f313b;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px;
+    padding-left: 80px;
+    margin-bottom: 20px; 
+}
+
+#legency {
+    width: 60%;
+    padding: 40px; 
+    border-radius: 10px; 
+    align-items: center;
+    background-image: url("colours2.jpg");
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 20px; 
+}
+
+#legency h1 {
+    color: #0f313b;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+#legency p {
+    color: #200e3493;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+#Tagoreimg {
+    width: 20%; 
+    padding-left: 30px; 
+    margin-bottom: 20px; 
+}
+
+#Tagoreimg img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 80px; 
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(to right, #541aab, #2d119d, #a20c78b2, #ff000093); 
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 40px; 
+    margin-bottom: 20px;
+    height: 450px;
+}
+
+#about h2 {
+    color: #f1c40f;
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+#about p {
+    color: #ccc;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#about .btn {
+    background-color: #f1c40f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about .btn:hover {
+    background-color: #d4380d;
+}
+/* Add this to your existing CSS */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.modal-content {
+    background: linear-gradient(to right, #a15bf1f3,#1473dfe5); 
+    margin: 5% auto;
+    padding: 20px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.close-btn {
+    color: #e60e0e;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Add this to your existing CSS */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Submit button */
+#registration-form button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration-form button[type="submit"]:hover {
+    background-color: #a77821; 
+}
+
+/* All input fields */
+#registration-form input[type="text"],
+#registration-form input[type="tel"],
+#registration-form input[type="email"],
+#registration-form input[type="number"],
+#registration-form input[type="file"] {
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box; 
+}
+
+/* Gallery Section */
+#gallery {
+    background: linear-gradient(to right, #1aab9d, #900ab5); 
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+#gallery h2 {
+    color: #f9e10d;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.gallery-container {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+}
+
+#gallery .gallery-item {
+    display: inline-block;
+    width: 23%; 
+    margin: 10px; 
+    text-align: left;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    color: black;
+}
+.gallery-container img {
+    width: 100%;
+    height: auto;
+    transition: box-shadow 0.8s ease, transform 0.8s ease; 
+}
+
+.gallery-container img:hover {
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+    transform: translateY(-5px); 
+}
+
+#gallery .gallery-item p {
+    margin-top: 10px; 
+    font-size: 14px; 
+}
+
+#featured-workshop {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    border: 3px solid #000;
+    color: black;
+}
+
+#featured-workshop h2 {
+    font-size: 28px; 
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+#featured-workshop h3 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#featured-workshop p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Call to Action Section */
+#call-to-action {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #54ab1a, #b5900a); 
+    border-radius: 10px;
+}
+
+#call-to-action h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+#call-to-action a {
+    background-color: #ffa200;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+#call-to-action a:hover {
+    background-color: #da0e0e;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column; 
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 40px; 
+}
+#contact h2 {
+    color: black;
+    font-family: cursive;
+}
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.container img {
+    width: 35%;
+    border-radius: 10px;
+    margin-left: 20px; 
+}
+
+.container form {
+    flex: 1;
+    max-width: 45%;
+    text-align: left; 
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}#contact  p {
+    color: black;
+}
+
+.contact-icons a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 34px;
+}
+
+.container form input[type="submit"] {
+    width: 150px; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #135aab;
+    color: #fcfcfc;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #d62020;
+}
+
+.container form input[type="email"],
+.container form textarea {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+.container form input[type="email"]:invalid {
+    border: 2px solid rgb(8, 8, 8);
+}
+
+.container form textarea[name="message"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    height: 150px;
+    resize: vertical; 
+    box-sizing: border-box; 
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #ffc107c1, #ff0037c3);
+    padding: 20px 0;
+}
