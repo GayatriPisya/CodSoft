@@ -3,7 +3,9 @@ Batch - APRIL BATCH A48
 <h1 align="center">Portfolio Website</h1>
 
 <p align="center">
-![Screenshot 2024-05-20 151447](https://github.com/GayatriPisya/CodSoft/assets/157793060/dc9643f7-0912-44f2-a658-8b54e3adc7af)
+![Portfolio](https://github.com/GayatriPisya/CodSoft/assets/157793060/d1f9ae11-5c5d-47a2-a453-a129eabb1a4f)
+
+
 
 </p>
 
