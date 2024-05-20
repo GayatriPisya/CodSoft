@@ -2,12 +2,7 @@
 Batch - APRIL BATCH A48
 <h1 align="center">Portfolio Website</h1>
 
-<p align="center">
 ![Portfolio](https://github.com/GayatriPisya/CodSoft/assets/157793060/d1f9ae11-5c5d-47a2-a453-a129eabb1a4f)
-
-
-
-</p>
 
 <h2 align="center">Description</h2>
 <p align="center">This project is a personal portfolio website showcasing my work, skills, and experience. It serves as an online resume and a platform for potential clients or employers to learn more about me and my projects.</p>
