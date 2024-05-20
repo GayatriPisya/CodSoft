@@ -47,7 +47,7 @@ If using the registration form, configure the form submission to your desired ba
 
 ---
 
-<h1 align="center">Calculator App</h1>
+<h1 align="center">Calculator</h1>
 
 ![Calculator](https://github.com/GayatriPisya/CodSoft/assets/157793060/7db87b6c-e104-4b11-a502-a9f2a2814b5d)
 
